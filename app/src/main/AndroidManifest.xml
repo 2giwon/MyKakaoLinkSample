@@ -18,6 +18,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MyKakaoLinkTest"
         android:usesCleartextTraffic="true"
+        android:name=".KakaoSampleApplication"
         tools:targetApi="31">
         <activity
             android:name=".MainActivity"

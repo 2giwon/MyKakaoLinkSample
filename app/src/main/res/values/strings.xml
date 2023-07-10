@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">MyKakaoLinkTest</string>
+    <string name="share_kakao">카카오 공유하기</string>
+    <string name="scrap_share_kakao">카카오 스크랩 공유</string>
 </resources>
