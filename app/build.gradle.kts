@@ -68,4 +68,6 @@ dependencies {
         testImplementation(ASSERTJ_CORE)
         testImplementation(MOCKK)
     }
+
+    implementation(KakaoSdkDependency.KAKAO_ALL)
 }

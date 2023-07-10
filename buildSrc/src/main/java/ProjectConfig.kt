@@ -3,4 +3,5 @@ object ProjectConfig {
 
     const val GRADLE = "com.android.tools.build:gradle:7.1.1"
     const val KOTLIN_GRADLE_PLUGIN = "org.jetbrains.kotlin:kotlin-gradle-plugin:${Version.KOTLIN}"
+    const val KAKAO_URL = "https://devrepo.kakao.com/nexus/content/groups/public/"
 }

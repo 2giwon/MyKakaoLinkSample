@@ -5,7 +5,6 @@ buildscript {
     repositories {
         google()
         mavenCentral()
-        maven(ProjectConfig.MAVEN_URL)
     }
     dependencies {
         classpath(ProjectConfig.GRADLE)

@@ -35,3 +35,7 @@ object HiltDependency {
 object CoroutineDependency {
     const val CORE = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${Version.COROUTINE}"
 }
+
+object KakaoSdkDependency {
+    const val KAKAO_ALL = "com.kakao.sdk:v2-all:2.11.0"
+}
