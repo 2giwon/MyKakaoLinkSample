@@ -70,7 +70,7 @@ class KakaoUtil(
     }
 
     fun sendKakaoScrap(
-        imageUrl: String = "https://static.atomydaily.com/upload/prd/img/2162a38b-c715-44d2-8b01-0f9aca58e4cc.jpg",
+        imageUrl: String = "http://k.kakaocdn.net/dn/Q2iNx/btqgeRgV54P/VLdBs9cvyn8BJXB3o7N8UK/kakaolink40_original.png",
     ) {
         if (ShareClient.instance.isKakaoTalkSharingAvailable(context)) {
             ShareClient.instance.shareScrap(context, imageUrl) { sharingResult, error ->
